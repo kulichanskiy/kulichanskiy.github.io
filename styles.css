@@ -3,7 +3,7 @@
 }
 body {
   font-family:Inter, system-ui,Segoe UI, Arial; 
-  background: linear-gradient(to right, #1a0f2f, #0a0f3f);
+  background: linear-gradient(135deg, #1a0f2f, #0a0f3f);
   color:#111; 
   margin:0; 
   display:flex; 
