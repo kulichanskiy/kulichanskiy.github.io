@@ -63,6 +63,7 @@ p.role {
   width: 16px;
   height: 16px;
   border-radius: 4px; 
+  object-fit:cover;
 }
 footer {
   margin-top:18px; 
