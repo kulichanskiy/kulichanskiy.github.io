@@ -60,10 +60,10 @@ p.role {
   color:#0b2b4a
 }
 .btn-icon {
-  width: 16px;
-  height: 16px;
-  border-radius: 4px; 
-  object-fit:cover;
+  width: 16px !important;
+  height: 16px !important;
+  border-radius: 4px !important; 
+  object-fit:cover !important;
 }
 footer {
   margin-top:18px; 
