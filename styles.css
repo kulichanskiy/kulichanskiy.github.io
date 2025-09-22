@@ -59,6 +59,11 @@ p.role {
   background:#f3f6fb; 
   color:#0b2b4a
 }
+.btn-icon {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px; 
+}
 footer {
   margin-top:18px; 
   color:#666; 
