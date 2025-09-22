@@ -9,7 +9,7 @@ body {
   display:flex; 
   min-height:100vh;
   align-items:center; 
-  justify-content:center
+  justify-content:center;
 }
 .card {
   background: #fff; 
@@ -64,6 +64,7 @@ p.role {
   height: 16px !important;
   border-radius: 4px !important; 
   object-fit:cover !important;
+  margin-right: 3px;
 }
 footer {
   margin-top:18px; 
