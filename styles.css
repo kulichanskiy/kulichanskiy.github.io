@@ -58,13 +58,14 @@ p.role {
 .btn.ghost {
   background:#f3f6fb; 
   color:#0b2b4a
+  justify-content:center !important;
 }
 .btn-icon {
-  width: 16px !important;
-  height: 16px !important;
-  border-radius: 4px !important; 
+  width:16px !important;
+  height:16px !important;
+  border-radius:4px !important; 
   object-fit:cover !important;
-  margin-right: 3px !important;
+  margin-right:3px !important;
 }
 footer {
   margin-top:18px; 
