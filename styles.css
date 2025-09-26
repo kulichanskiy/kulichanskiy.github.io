@@ -56,9 +56,10 @@ p.role {
   color:#fff
 }
 .btn.ghost {
+  display: inline-flex;
   background:#f3f6fb; 
-  color:#0b2b4a
-  justify-content:center !important;
+  color:#0b2b4a;
+  align-items: center;
 }
 .btn-icon {
   width:16px !important;
@@ -67,9 +68,63 @@ p.role {
   object-fit:cover !important;
   margin-right:3px !important;
 }
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px; 
+}
+
+.project-container {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  border-radius: 20px;
+  padding: 20px;
+  max-width: 350px;
+}
+
+.project-logo {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;     /* crops to fit nicely */
+  border-radius: 16px;
+  display: block;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  border: 2px solid rgba(11, 102, 195, 0.2);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.project-logo:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+.project-type {
+  margin:4px 0 18px; 
+  color:#444;
+  font-size: 10px;
+  font-weight: 250;
+}
+
+.project-desc {
+  margin:4px 0 18px; 
+  color:#444;
+  font-size: 12px;
+  font-weight: 400;
+}
 footer {
   margin-top:18px; 
   color:#666; 
   font-size:13px
 }
-@media(max-width:480px){.head{flex-direction:column; align-items:flex-start}}
+@media(max-width: 480px){
+  .head{
+    flex-direction: column; 
+    align-items: flex-start
+  }
+}
+@media (max-width: 700px) {
+  .projects {
+    grid-template-columns: 1fr;
+  }
+}
